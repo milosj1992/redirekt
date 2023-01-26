@@ -115,4 +115,26 @@ app.post('/submit', async (req, res) => {
 app.listen(3000, function () {
 
 });
+/*
+
+
+  var seoSingleImages = document.getElementsByClassName('seo-single-image');
+  for (var i = 0; i < seoSingleImages.length; i++) {
+    var eventLabel = seoSingleImages[i].querySelector('a').getAttribute('eventlabel');
+    var href = seoSingleImages[i].querySelector('a').getAttribute('href');
+    var newEventLabel = "seo-image-text-image-" + href.replace(/\/shop\/|-\d+p\.html/g, '');
+      console.log(newEventLabel);
+    seoSingleImages[i].querySelector('a').setAttribute('eventlabel', newEventLabel);
+  }
+
+  var seoTextAreas = document.getElementsByClassName('seo-text-area');
+  for (var i = 0; i < seoTextAreas.length; i++) {
+    var eventLabel = seoTextAreas[i].querySelector('a').getAttribute('eventlabel');
+    var href = seoTextAreas[i].querySelector('a').getAttribute('href');
+    var newEventLabel = "seo-image-text-link-" + href.replace(/\/shop\/|-\d+p\.html/g, '');
+    seoTextAreas[i].querySelector('a').setAttribute('eventlabel', newEventLabel);
+  }
+
+
+ */
 
